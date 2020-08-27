@@ -8,3 +8,6 @@ build/
 ios/.generated/
 packages
 pubspec.lock
+.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*

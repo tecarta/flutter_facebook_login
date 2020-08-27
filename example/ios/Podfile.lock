@@ -1,41 +1,41 @@
 PODS:
-  - FBSDKCoreKit (5.6.0):
-    - FBSDKCoreKit/Basics (= 5.6.0)
-    - FBSDKCoreKit/Core (= 5.6.0)
-  - FBSDKCoreKit/Basics (5.6.0)
-  - FBSDKCoreKit/Core (5.6.0):
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
     - FBSDKCoreKit/Basics
-  - FBSDKLoginKit (5.6.0):
-    - FBSDKLoginKit/Login (= 5.6.0)
-  - FBSDKLoginKit/Login (5.6.0):
-    - FBSDKCoreKit (~> 5.0)
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
   - Flutter (1.0.0)
   - flutter_facebook_login (0.0.1):
-    - FBSDKCoreKit (~> 5.5)
-    - FBSDKLoginKit (~> 5.5)
+    - FBSDKCoreKit (~> 7.0)
+    - FBSDKLoginKit (~> 7.0)
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `/Users/iirokrankka/flutter/bin/cache/artifacts/engine/ios`)
-  - flutter_facebook_login (from `/Users/iirokrankka/flutter_facebook_login/ios`)
+  - Flutter (from `/Users/mike/Development/flutter/bin/cache/artifacts/engine/ios`)
+  - flutter_facebook_login (from `/Users/mike/Development/flutter_facebook_login/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - FBSDKCoreKit
     - FBSDKLoginKit
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "/Users/iirokrankka/flutter/bin/cache/artifacts/engine/ios"
+    :path: "/Users/mike/Development/flutter/bin/cache/artifacts/engine/ios"
   flutter_facebook_login:
-    :path: "/Users/iirokrankka/flutter_facebook_login/ios"
+    :path: "/Users/mike/Development/flutter_facebook_login/ios"
 
 SPEC CHECKSUMS:
-  FBSDKCoreKit: d6655a343868d4bb5c29a60859bab07c3be14a0b
-  FBSDKLoginKit: c5a623de88a6b0cda35b35582921f6cec2efcc36
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_facebook_login: 0266e8cf236ad20f17d377c4251c582638d8bef7
+  flutter_facebook_login: 8b66c68af062890f5c4a204fdc2b6d810e521f74
 
-PODFILE CHECKSUM: 3098c51a7edbd004c9f2b45eca5eb135d6f3ff27
+PODFILE CHECKSUM: 59f0fcca3b0f6308f9142e98f0297fe1b8be6b52
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.3
